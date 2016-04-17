@@ -1,8 +1,9 @@
 {
-  "name": "slack-invite-automation",
+  "name": "abawt-slack",
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "prestart": "npm install",
     "start": "node ./bin/www"
   },
   "dependencies": {
@@ -15,5 +16,12 @@
     "morgan": "^1.6.0",
     "request": "^2.62.0",
     "serve-favicon": "^2.3.0"
+  },
+  "devDependencies": {
+    "shipit-bower": "^0.2.1",
+    "shipit-cli": "^1.4.0",
+    "shipit-deploy": "^2.0.0",
+    "shipit-npm": "^0.2.0",
+    "shipit-shared": "^4.2.0"
   }
 }
